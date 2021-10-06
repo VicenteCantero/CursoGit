@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+h3 {font-family: Tahoma; background-color: #00aeef ; color: #fff; padding: 10px;}
+p {text-align: center;}
+* {font-family: Tahoma;}
+table {align: center; text-align: center; width: 60%;}
+th {margin: 5px; align: center; background-color: #00aeef; color: #fff; padding: 5px;}
+td {margin:5px;}
+</style>
+</head>
+<body>
+<h3>
+El tiempo
+</h3>
+<p>
+Pronóstico del tiempo en tres días
+</p>
+<table align="center">
+
+<tr>
+<td></td>
+<th>Hoy</th>
+<th>Mañana</th>
+<th>Domingo</th>
+</tr>
+<tr>
+<th>Temperatura máxima</th>
+<td>15º</td>
+<td>16º</td>
+<td>17º</td>
+</tr>
+<tr>
+<th>Temperatura mínima</th>
+<td>13º</td>
+<td>12º</td>
+<td>14º</td>
+</tr>
+<tr>
+<th>Velocidad Viento</th>
+<td>35km/h</td>
+<td>33km/h</td>
+<td>25km/h</td>
+</tr>
+</table>
+</body>
+</html>

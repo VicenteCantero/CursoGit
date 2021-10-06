@@ -1,0 +1,30 @@
+<html>
+<head>
+<style type="text/css">
+h3,button {font-family: Tahoma; background-color: #00aeef ; color: #fff; padding: 10px}
+body {font-family: Tahoma;}
+</style>
+</head>
+<body>
+<h3>
+Formulario de contacto
+</h3>
+<form>
+<fieldset>
+<legend>Contacto</legend><br>
+<label for="elnombre">Nombre</label>
+<input type="text" id="elnombre" name="elnombre"><br><br>
+<label for="contraseña">Contraseña</label>
+<input type="password" id="contraseña" name="contraseña"><br><br>
+<label for="telefono">Teléfono</label>
+<input type="telefono" id="telefono" name="telefono"><br><br>
+<label for="fecha">Fecha</label>
+<input type="date" id="fecha" name="fecha"><br><br>
+<label for="mensaje">Mensaje</label>
+<textarea name="mensaje" rows="3" cols="30">Mensaje de texto</textarea><br><br>
+<input type="checkbox" name="acepto">Acepto los términos y condiciones<br><br>
+<button type="submit">Enviar</button><br><br>
+</fieldset>
+</form>
+</body>
+</html>
